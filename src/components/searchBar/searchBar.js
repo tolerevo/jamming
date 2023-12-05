@@ -2,13 +2,20 @@ import React, { useState } from 'react';
 import styles from './searchBar.module.css';
 
 function SearchBar() {
-  const [search, setSearch] = useState('');
+  const [term, setTerm] = useState('');
+
+  const handleTermSearch = (e) => {
+    setTerm(e.target.value);
+  }
+
   return (
-      <form className={styles.search}>
-        <label htmlFor='search'>Search: </label>
-        <input id='search' name='search' value={search} onChange={(e) => setSearch(e.target.value)} type='text' />
-      </form>
+      <div className={styles.search}>
+        <input placeholder='Enter A Song Title' onChange={handleTermSearch} type='text' />
+        <button className='SearchButton' >
+          SEARCH
+        </button>
+      </div>
   );
-}
+};
 
 export default SearchBar;
