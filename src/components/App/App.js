@@ -3,7 +3,7 @@ import SearchBar from '../searchBar/searchBar';
 function App() {
   return (
     <div className="App">
-      <SearchBar onSearch={search} />
+      <SearchBar />
     </div>
   );
 }
