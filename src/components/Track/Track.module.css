@@ -1,0 +1,33 @@
+.track {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 8.66rem;
+  margin: 0 0.5rem 2.3rem 0.5rem;
+  border: 2px solid skyblue;
+}
+
+.track h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.trackInformation {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.trackInformation p {
+  font-size: 0.88rem;
+  font-weight: 350;
+  line-height: 1.2rem;
+  margin: 0;
+}
