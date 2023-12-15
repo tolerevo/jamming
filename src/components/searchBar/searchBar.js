@@ -15,7 +15,7 @@ const SearchBar = (props) => {
   return (
     <div className={styles.SearchBar}>
       <input placeholder='Enter A Song Title' onChange={handleTermChange} />
-      <button type='submit' className={styles.SearchButton} onClick={search} onSearch={search}>
+      <button className={styles.SearchButton} onClick={search}>
         Search
       </button>
     </div>
