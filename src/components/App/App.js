@@ -1,15 +1,23 @@
 import React from 'react';
 import SearchBar from '../searchBar/searchBar';
-import styles from './App.module.css';
+import Playlist from '../Playlist/Playlist';
+import './App.css';
 
 
 const App = () => {
   return (
-    <div className={styles.App}>
-      <h1>Ja<span style={{ color: 'hsla(252, 70%, 54%, 1)' }}>mmm</span>ing</h1>
-      <SearchBar />
+    <div>
+      <h1>
+        Ja<span className="highlight">mmm</span>ing
+      </h1>
+      <div className="App">
+        <SearchBar onSearch={ {/*search*/} }/>
+        <div className='App-playlist'>
+          <Playlist list={'Tracklist'}/>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

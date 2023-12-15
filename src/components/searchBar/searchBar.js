@@ -10,6 +10,7 @@ const SearchBar = (props) => {
 
   const search = useCallback(() => {
     props.onSearch(term);
+    //eslint-disable-next-line
   }, [props.onSearch, term]);
 
   return (
