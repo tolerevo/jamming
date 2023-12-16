@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchBar from '../searchBar/searchBar';
+import SearchBar from '../SearchBar/SearchBar';
 import Playlist from '../Playlist/Playlist';
 import './App.css';
 
