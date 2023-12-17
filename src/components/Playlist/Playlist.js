@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Playlist.module.css';
+import styles from './PlayList.module.css';
 
 const PlayList = (props) => {
   function handleClick(props) {
