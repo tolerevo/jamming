@@ -11,9 +11,9 @@ const App = () => {
         Ja<span className="highlight">mmm</span>ing
       </h1>
       <div className="App">
-        <SearchBar onSearch={ {/*search*/} }/>
+        <SearchBar onSearch={{/*search*/ }} />
         <div className='App-playlist'>
-          <PlayList list={'TrackList'}/>
+          <PlayList list={'TrackList'} />
         </div>
       </div>
     </div>
