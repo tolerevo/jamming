@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchBar from '../SearchBar/SearchBar';
-import Playlist from '../Playlist/Playlist';
+import PlayList from '../Playlist/Playlist';
 import './App.css';
 
 
@@ -13,7 +13,7 @@ const App = () => {
       <div className="App">
         <SearchBar onSearch={ {/*search*/} }/>
         <div className='App-playlist'>
-          <Playlist list={'Tracklist'}/>
+          <PlayList list={'TrackList'}/>
         </div>
       </div>
     </div>

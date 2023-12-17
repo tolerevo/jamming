@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Playlist.module.css';
 
-const Playlist = (props) => {
+const PlayList = (props) => {
   function handleClick(props) {
     let playList = `Your ${props.list} has been added to Spotify`;
     alert(playList);
@@ -14,4 +14,4 @@ const Playlist = (props) => {
       
   );
 }
-export default Playlist;
+export default PlayList;
